@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_car_intallment_calculator/views/input_screen_ui.dart';
+import 'package:flutter_car_intallment_calculator/views/result_screen_ui.dart';
 import 'package:flutter_car_intallment_calculator/views/splash_screen_ui.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -23,7 +25,7 @@ class _FlutterCarIntallmentCalcultorState
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreenUI(),
+      home: InputScreenUI(),
       theme: ThemeData(
         textTheme: GoogleFonts.kanitTextTheme(
           Theme.of(context).textTheme,
