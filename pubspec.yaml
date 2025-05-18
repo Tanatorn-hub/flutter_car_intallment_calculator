@@ -1,0 +1,28 @@
+name: flutter_car_intallment_calculator
+description: "แอปพลิเคชันที่ใช้คำนวณค่างวดตรถยนต์ รถเครื่อง"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  image_picker: ^1.1.2 # แพ็จเกตใช้ในการเปิดกล้อง เปิดแกลเลอรี่
+  intl: ^0.20.2 # แพ็กเกจที่ช่วยในการจัดรูปแบบของข้อความ ตัวเลข วันที่ ......
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
