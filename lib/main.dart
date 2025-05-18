@@ -25,7 +25,7 @@ class _FlutterCarIntallmentCalcultorState
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: InputScreenUI(),
+      home: SplashScreenUI(),
       theme: ThemeData(
         textTheme: GoogleFonts.kanitTextTheme(
           Theme.of(context).textTheme,
